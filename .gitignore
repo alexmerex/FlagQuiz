@@ -1,0 +1,13 @@
+node_modules/
+.expo/
+dist/
+.env
+server/data/db.json
+server/data/*.tmp
+npm-debug.log*
+.*.log
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision

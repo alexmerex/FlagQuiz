@@ -1,0 +1,28 @@
+const questions = [
+  { id: "e1", levelId: "easy", type: "flag", prompt: "🇻🇳", correctAnswer: "Việt Nam", answers: ["Việt Nam", "Trung Quốc", "Singapore", "Thái Lan"] },
+  { id: "e2", levelId: "easy", type: "flag", prompt: "🇯🇵", correctAnswer: "Nhật Bản", answers: ["Hàn Quốc", "Nhật Bản", "Bangladesh", "Indonesia"] },
+  { id: "e3", levelId: "easy", type: "flag", prompt: "🇺🇸", correctAnswer: "Hoa Kỳ", answers: ["Hoa Kỳ", "Liberia", "Malaysia", "Anh"] },
+  { id: "e4", levelId: "easy", type: "flag", prompt: "🇫🇷", correctAnswer: "Pháp", answers: ["Hà Lan", "Nga", "Pháp", "Ý"] },
+  { id: "e5", levelId: "easy", type: "flag", prompt: "🇧🇷", correctAnswer: "Brazil", answers: ["Brazil", "Argentina", "Bolivia", "Bồ Đào Nha"] },
+  { id: "e6", levelId: "easy", type: "country", prompt: "Đâu là quốc kỳ của Đức?", correctAnswer: "🇩🇪", answers: ["🇧🇪", "🇩🇪", "🇪🇸", "🇷🇴"] },
+  { id: "e7", levelId: "easy", type: "country", prompt: "Đâu là quốc kỳ của Canada?", correctAnswer: "🇨🇦", answers: ["🇨🇦", "🇦🇹", "🇵🇪", "🇩🇰"] },
+  { id: "e8", levelId: "easy", type: "country", prompt: "Đâu là quốc kỳ của Hàn Quốc?", correctAnswer: "🇰🇷", answers: ["🇰🇵", "🇯🇵", "🇰🇷", "🇲🇳"] },
+  { id: "n1", levelId: "normal", type: "flag", prompt: "🇨🇭", correctAnswer: "Thụy Sĩ", answers: ["Đan Mạch", "Thụy Sĩ", "Georgia", "Tonga"] },
+  { id: "n2", levelId: "normal", type: "flag", prompt: "🇳🇿", correctAnswer: "New Zealand", answers: ["Úc", "New Zealand", "Fiji", "Tuvalu"] },
+  { id: "n3", levelId: "normal", type: "flag", prompt: "🇿🇦", correctAnswer: "Nam Phi", answers: ["Nam Phi", "Kenya", "Ghana", "Zimbabwe"] },
+  { id: "n4", levelId: "normal", type: "flag", prompt: "🇳🇴", correctAnswer: "Na Uy", answers: ["Iceland", "Phần Lan", "Na Uy", "Đan Mạch"] },
+  { id: "n5", levelId: "normal", type: "country", prompt: "Đâu là quốc kỳ của Philippines?", correctAnswer: "🇵🇭", answers: ["🇨🇿", "🇵🇭", "🇨🇺", "🇵🇷"] },
+  { id: "n6", levelId: "normal", type: "country", prompt: "Đâu là quốc kỳ của Thổ Nhĩ Kỳ?", correctAnswer: "🇹🇷", answers: ["🇹🇳", "🇹🇷", "🇵🇰", "🇩🇿"] },
+  { id: "n7", levelId: "normal", type: "flag", prompt: "🇲🇽", correctAnswer: "Mexico", answers: ["Mexico", "Ý", "Hungary", "Iran"] },
+  { id: "n8", levelId: "normal", type: "country", prompt: "Đâu là quốc kỳ của Hy Lạp?", correctAnswer: "🇬🇷", answers: ["🇺🇾", "🇮🇱", "🇬🇷", "🇫🇮"] },
+  { id: "h1", levelId: "hard", type: "flag", prompt: "🇧🇹", correctAnswer: "Bhutan", answers: ["Bhutan", "Nepal", "Sri Lanka", "Myanmar"] },
+  { id: "h2", levelId: "hard", type: "flag", prompt: "🇰🇬", correctAnswer: "Kyrgyzstan", answers: ["Kazakhstan", "Kyrgyzstan", "Tajikistan", "Uzbekistan"] },
+  { id: "h3", levelId: "hard", type: "flag", prompt: "🇸🇨", correctAnswer: "Seychelles", answers: ["Mauritius", "Seychelles", "Comoros", "Cape Verde"] },
+  { id: "h4", levelId: "hard", type: "flag", prompt: "🇱🇸", correctAnswer: "Lesotho", answers: ["Eswatini", "Botswana", "Lesotho", "Namibia"] },
+  { id: "h5", levelId: "hard", type: "country", prompt: "Đâu là quốc kỳ của Vanuatu?", correctAnswer: "🇻🇺", answers: ["🇻🇺", "🇸🇧", "🇵🇬", "🇫🇯"] },
+  { id: "h6", levelId: "hard", type: "country", prompt: "Đâu là quốc kỳ của Antigua và Barbuda?", correctAnswer: "🇦🇬", answers: ["🇦🇬", "🇧🇸", "🇧🇧", "🇬🇩"] },
+  { id: "h7", levelId: "hard", type: "flag", prompt: "🇸🇷", correctAnswer: "Suriname", answers: ["Guyana", "Suriname", "Senegal", "Ghana"] },
+  { id: "h8", levelId: "hard", type: "flag", prompt: "🇲🇰", correctAnswer: "Bắc Macedonia", answers: ["Albania", "Montenegro", "Bắc Macedonia", "Moldova"] },
+];
+
+module.exports = { questions };

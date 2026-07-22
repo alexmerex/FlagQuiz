@@ -1,0 +1,41 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="10" x2="1120" y2="410" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07132F"/>
+      <stop offset="1" stop-color="#17315F"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7157FF"/>
+      <stop offset="1" stop-color="#35D0BA"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#020817" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <circle cx="1050" cy="40" r="230" fill="#7157FF" fill-opacity="0.08"/>
+  <circle cx="110" cy="405" r="210" fill="#35D0BA" fill-opacity="0.06"/>
+  <g opacity="0.22" stroke="#AAB7D4">
+    <path d="M0 84H1200M0 168H1200M0 252H1200M0 336H1200"/>
+    <path d="M120 0V420M240 0V420M360 0V420M480 0V420M600 0V420M720 0V420M840 0V420M960 0V420M1080 0V420"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="95" y="91" width="190" height="190" rx="48" fill="url(#accent)"/>
+    <path d="M163 139V236" stroke="white" stroke-width="13" stroke-linecap="round"/>
+    <path d="M174 145H239L226 170L239 195H174V145Z" fill="white"/>
+    <circle cx="226" cy="312" r="8" fill="#35D0BA"/>
+    <circle cx="256" cy="312" r="8" fill="#FFCA62"/>
+    <circle cx="196" cy="312" r="8" fill="#FF6B7A"/>
+  </g>
+  <text x="340" y="171" fill="#F7F9FF" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="800" letter-spacing="3">FLAG QUIZ</text>
+  <text x="345" y="222" fill="#35D0BA" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" letter-spacing="2">EXPLORE THE WORLD, ONE FLAG AT A TIME</text>
+  <text x="345" y="273" fill="#AAB7D4" font-family="Arial, Helvetica, sans-serif" font-size="24">Ứng dụng đố vui quốc kỳ đa nền tảng</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">
+    <rect x="345" y="310" width="128" height="42" rx="21" fill="#7157FF" fill-opacity="0.22" stroke="#7157FF"/>
+    <text x="376" y="337" fill="#F7F9FF">EXPO</text>
+    <rect x="489" y="310" width="188" height="42" rx="21" fill="#35D0BA" fill-opacity="0.16" stroke="#35D0BA"/>
+    <text x="518" y="337" fill="#F7F9FF">REACT NATIVE</text>
+    <rect x="693" y="310" width="156" height="42" rx="21" fill="#FFCA62" fill-opacity="0.14" stroke="#FFCA62"/>
+    <text x="728" y="337" fill="#F7F9FF">EXPRESS</text>
+  </g>
+</svg>

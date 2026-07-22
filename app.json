@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Flag Quiz",
+    "slug": "flag-quiz",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#07132f",
+    "web": {
+      "bundler": "metro"
+    },
+    "android": {
+      "package": "com.flagquiz.app"
+    },
+    "ios": {
+      "bundleIdentifier": "com.flagquiz.app",
+      "supportsTablet": true
+    },
+    "plugins": [
+      "expo-status-bar"
+    ]
+  }
+}
